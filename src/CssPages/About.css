@@ -1,0 +1,42 @@
+.max-height-500 {
+  max-height: 500px;
+}
+
+.title-about {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  margin: 30px;
+}
+
+.travel-container {
+  background-color: #f5f5f5;
+  padding: 40px 0;
+  overflow: hidden;
+}
+
+.easy-container {
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 30px;
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+h3 {
+  font-size: 1.5rem;
+  margin-top: 20px;
+  color: #333;
+}
+
+svg {
+  margin-bottom: 10px;
+}
+
+@media (max-width: 767px) {
+  .col-md-4 {
+    width: 100%;
+  }
+}

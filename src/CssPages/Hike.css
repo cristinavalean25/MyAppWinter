@@ -1,0 +1,58 @@
+.bg-image {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.overlay-hike {
+  background-color: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.content {
+  text-align: center;
+  padding: 20px;
+  color: #fff;
+}
+
+.title-hike {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #fff;
+  font-weight: 700;
+}
+
+.text-left {
+  text-align: left;
+
+  filter: brightness(1.4);
+  text-align: justify;
+  padding: 5px;
+}
+
+@media (max-width: 668px) {
+  .title {
+    font-size: 1.5rem;
+  }
+  .text-left {
+    font-size: 1rem;
+  }
+}
+
+/*Carousel container */
+
+/* .bottom-hike {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.bottom-hike .col-md-3 {
+  flex: 1;
+  max-height: 300px;
+  margin: 10px;
+} */
